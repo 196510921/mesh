@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\juma_ble.uvprojx
+Project File Date:  07/29/2015
+
+<h2>Output:</h2>
+Build target 'MESH'
+compiling main.c...
+..\main.c(37): error:  #5: cannot open source input file "nrf_adv_conn.h": No such file or directory
+  #include "nrf_adv_conn.h"
+..\main.c: 0 warnings, 1 error
+compiling simple_uart.c...
+compiling ts_peripheral.c...
+compiling router.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\mesh_app\Source\router.c(5): warning:  #177-D: variable "radio_times_record" was declared but never referenced
+  static uint16_t radio_times_record;
+..\..\mesh_app\Source\router.c(8): warning:  #177-D: variable "beaconPkt" was declared but never referenced
+  static beacon_pkt_t beaconPkt;
+..\..\mesh_app\Source\router.c(9): warning:  #177-D: variable "routerRsp" was declared but never referenced
+  static router_responce_t routerRsp;
+..\..\mesh_app\Source\router.c: 4 warnings, 0 errors
+compiling mesh_baseband.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\mesh_app\Source\mesh_baseband.c(8): warning:  #550-D: variable "ble_disable_sign" was set but never used
+  static uint8_t ble_disable_sign;
+..\..\mesh_app\Source\mesh_baseband.c(14): warning:  #177-D: variable "tx_sign" was declared but never referenced
+  static uint8_t tx_sign = 9;
+..\..\mesh_app\Source\mesh_baseband.c(19): warning:  #177-D: variable "channel" was declared but never referenced
+  static uint8_t channel;
+..\..\mesh_app\Source\mesh_baseband.c(33): warning:  #177-D: variable "ble_scanReq_data" was declared but never referenced
+  static uint8_t ble_scanReq_data[15] = {0x43,0x0C,0x00,0x02,0x03,0x04,0x05,0x06,0x9D,0x8C,0x49,0xE5,0xFF,0xD2};
+..\..\mesh_app\Source\mesh_baseband.c(34): warning:  #177-D: variable "ble_rx_data" was declared but never referenced
+  static uint8_t ble_rx_data[37];
+..\..\mesh_app\Source\mesh_baseband.c: 6 warnings, 0 errors
+compiling mesh_app.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\mesh_app\Include\mesh_app.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_APP_H_
+..\..\mesh_app\Source\mesh_app.c(5): warning:  #177-D: variable "mac_addr_1" was declared but never referenced
+  static uint8_t mac_addr_1[6] = {0x09,0x09,0x09,0x09,0x09,0x09};
+..\..\mesh_app\Source\mesh_app.c: 3 warnings, 0 errors
+compiling fsm_adv_generic.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\baseband\Source\fsm_adv_generic.c(156): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\baseband\Source\fsm_adv_generic.c(8): warning:  #177-D: variable "tx_start" was declared but never referenced
+  static uint16_t tx_start;
+..\..\baseband\Source\fsm_adv_generic.c(15): warning:  #177-D: variable "_ble_adv_data" was declared but never referenced
+  static uint8_t _ble_adv_data[23] = {0x40,0x13,0x00,0x02,0x02,0x02,0x02,0x02,0x02,2, 1, 4, 0x09, 8, 'J','U','M','A','_','B','L','E'};
+..\..\baseband\Source\fsm_adv_generic.c: 4 warnings, 0 errors
+compiling fsm_sconn.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\host\Include\slave_dispatch.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif //_SLAVE_DISPATCH_h
+..\..\baseband\Source\fsm_sconn.c(270): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\baseband\Source\fsm_sconn.c(10): warning:  #550-D: variable "winSize" was set but never used
+  static uint8_t winSize;
+..\..\baseband\Source\fsm_sconn.c(16): warning:  #550-D: variable "sca" was set but never used
+  static uint8_t hop, sca;
+..\..\baseband\Source\fsm_sconn.c(28): warning:  #550-D: variable "numUnUseCh" was set but never used
+  static uint8_t numUnUseCh;
+..\..\baseband\Source\fsm_sconn.c(31): warning:  #550-D: variable "pdu_type" was set but never used
+  static uint8_t pdu_type;
+..\..\baseband\Source\fsm_sconn.c(32): warning:  #177-D: variable "s_state" was declared but never referenced
+  static uint8_t s_state;
+..\..\baseband\Source\fsm_sconn.c(34): warning:  #177-D: variable "start_ble_sign" was declared but never referenced
+  static uint8_t start_ble_sign;
+..\..\baseband\Source\fsm_sconn.c: 9 warnings, 0 errors
+compiling att.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\mesh_app\Include\mesh_app.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_APP_H_
+..\..\host\att.c(241): warning:  #177-D: variable "_errorhd" was declared but never referenced
+      uint8_t _errorhd[9]; // = {0x05, 0x00, 0x04, 0x00, 0x01, 0x08, 0x08, 0x00, 0x0A}; ///error code ATT_NOT_FOUND
+..\..\host\att.c(275): warning:  #177-D: variable "_attData1" was declared but never referenced
+        uint8_t _attData1[10];
+..\..\host\att.c(352): warning:  #177-D: variable "i" was declared but never referenced
+      uint8_t i;
+..\..\host\att.c(353): warning:  #177-D: variable "pos" was declared but never referenced
+      uint8_t pos;
+..\..\host\att.c(5): warning:  #177-D: variable "hdr" was declared but never referenced
+  static pdu_hdr_t hdr;
+..\..\host\att.c(6): warning:  #550-D: variable "ll_ver_in" was set but never used
+  static ll_ver_in_t ll_ver_in;
+..\..\host\att.c(8): warning:  #177-D: variable "notify_en" was declared but never referenced
+  static uint8_t notify_en;
+..\..\host\att.c(9): warning:  #177-D: variable "ver_sign" was declared but never referenced
+  static uint8_t ver_sign;
+..\..\host\att.c: 10 warnings, 0 errors
+compiling slave_dispatch.c...
+..\..\mesh_app\Include\mesh_baseband.h(106): warning:  #1-D: last line of file ends without a newline
+  #endif //_MESH_BASEBAND_H_
+..\..\host\Include\slave_dispatch.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif //_SLAVE_DISPATCH_h
+..\..\host\slave_dispatch.c(164): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\host\slave_dispatch.c(23): warning:  #550-D: variable "instantP" was set but never used
+                uint16_t instantP[1] = {0};
+..\..\host\slave_dispatch.c(24): warning:  #177-D: variable "instantChm" was declared but never referenced
+      uint16_t instantChm[1] = {0};
+..\..\host\slave_dispatch.c(6): warning:  #177-D: variable "l2cap_len" was declared but never referenced
+  static uint8_t l2cap_len[1] = {0};
+..\..\host\slave_dispatch.c: 6 warnings, 0 errors
+assembling arm_startup_nrf51.s...
+compiling system_nrf51.c...
+"..\..\mesh_app\arm\mesh.axf" - 1 Error(s), 42 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.3.20.4.pack
+                ARM::CMSIS:CORE:3.20.0
+                Cortex Microcontroller Software Interface Standard (CMSIS) CORE, DSP, RTOS, Driver
+   * Component: CORE Version: 3.20.0
+
+Package Vendor: NordicSemiconductor
+                http://www.keil.com/pack/NordicSemiconductor.nRF_DeviceFamilyPack.1.1.1.pack
+                NordicSemiconductor::Device:Startup:1.0.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.20.0
+
+   * Component: NordicSemiconductor::Device:Startup:1.0.0
+      Source file:   Device\Source\arm\arm_startup_nrf51.s
+      Source file:   Device\Source\system_nrf51.c
+      Include file:  Device\Include\system_nrf51.h
+Target not created

@@ -1,0 +1,198 @@
+Dependencies for Project 'juma_ble', Target 'MESH': (DO NOT MODIFY !)
+F (..\main.c)(0x55B8782E)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\main.o --omf_browse ..\..\mesh_app\arm\main.crf --depend ..\..\mesh_app\arm\main.d)
+F (..\..\..\Source\simple_uart\simple_uart.c)(0x554B2C34)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\simple_uart.o --omf_browse ..\..\mesh_app\arm\simple_uart.crf --depend ..\..\mesh_app\arm\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\..\Include\nrf_delay.h)(0x52B40802)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+F (..\..\btle_hci\advertiser\ts_peripheral.c)(0x55B87BE4)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\ts_peripheral.o --omf_browse ..\..\mesh_app\arm\ts_peripheral.crf --depend ..\..\mesh_app\arm\ts_peripheral.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (..\..\..\Include\nrf_delay.h)(0x52B40802)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\btle_hci\advertiser\Include\ts_adv_packet.h)(0x5546C687)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf_assert.h)(0x52B40802)
+F (..\..\mesh_app\Source\router.c)(0x55BB3554)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\router.o --omf_browse ..\..\mesh_app\arm\router.crf --depend ..\..\mesh_app\arm\router.d)
+I (..\..\mesh_app\Include\router.h)(0x55A60F8A)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (..\..\mesh_app\Source\mesh_baseband.c)(0x55BB2E89)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\mesh_baseband.o --omf_browse ..\..\mesh_app\arm\mesh_baseband.crf --depend ..\..\mesh_app\arm\mesh_baseband.d)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+I (..\..\mesh_app\Include\router.h)(0x55A60F8A)
+F (..\..\mesh_app\Source\mesh_app.c)(0x55B8782E)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\mesh_app.o --omf_browse ..\..\mesh_app\arm\mesh_app.crf --depend ..\..\mesh_app\arm\mesh_app.d)
+I (..\..\mesh_app\Include\mesh_app.h)(0x55B8476E)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+I (..\..\mesh_app\Include\router.h)(0x55A60F8A)
+I (..\..\host\Include\att.h)(0x55B848C6)
+F (..\..\baseband\Source\fsm_adv_generic.c)(0x55B98A58)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\fsm_adv_generic.o --omf_browse ..\..\mesh_app\arm\fsm_adv_generic.crf --depend ..\..\mesh_app\arm\fsm_adv_generic.d)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+F (..\..\baseband\Source\fsm_sconn.c)(0x55BAEDAC)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\fsm_sconn.o --omf_browse ..\..\mesh_app\arm\fsm_sconn.crf --depend ..\..\mesh_app\arm\fsm_sconn.d)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+I (..\..\host\Include\slave_dispatch.h)(0x55B848C1)
+F (..\..\host\att.c)(0x55B848C9)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\att.o --omf_browse ..\..\mesh_app\arm\att.crf --depend ..\..\mesh_app\arm\att.d)
+I (..\..\host\Include\att.h)(0x55B848C6)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+I (..\..\mesh_app\Include\mesh_app.h)(0x55B8476E)
+F (..\..\host\slave_dispatch.c)(0x55B9FDD9)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\slave_dispatch.o --omf_browse ..\..\mesh_app\arm\slave_dispatch.crf --depend ..\..\mesh_app\arm\slave_dispatch.d)
+I (..\..\host\Include\slave_dispatch.h)(0x55B848C1)
+I (..\..\mesh_app\Include\mesh_baseband.h)(0x55B9E595)
+I (..\..\..\Include\nrf_gpio.h)(0x55A76521)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\simple_uart.h)(0x554B2C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\btle_hci\advertiser\Include\ts_peripheral.h)(0x55A32FC8)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\Include\boards.h)(0x52B40802)
+I (..\..\..\Include\boards/pca10001.h)(0x52B40804)
+I (..\..\host\Include\att.h)(0x55B848C6)
+F (RTE\Device\nRF51822_xxAA\arm_startup_nrf51.s)(0x52B2542A)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include--list ..\..\mesh_app\arm_startup_nrf51.lst --xref -o ..\..\mesh_app\arm\arm_startup_nrf51.o --depend ..\..\mesh_app\arm\arm_startup_nrf51.d)
+F (RTE\Device\nRF51822_xxAA\system_nrf51.c)(0x52B2542A)(--c99 -c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\..\..\Include -I..\..\btle_hci\advertiser\Include -I..\..\btle_hci\fifo\Include -I..\..\..\Include\app_common -I..\..\..\Include\ble\ble_services -I..\..\..\Include\ble -I..\..\..\Include\s110 -I..\..\observer\Include -I..\..\mesh_app\Include -I..\..\host\Include --c99-I C:\Users\juma\Desktop\mesh_nordic\mesh_1\user\advertiser\arm\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DBOARD_PCA10001 -DSETUPA -DDEBUG_NRF_USER -o ..\..\mesh_app\arm\system_nrf51.o --omf_browse ..\..\mesh_app\arm\system_nrf51.crf --depend ..\..\mesh_app\arm\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\..\Include\nrf.h)(0x52B2542E)
+I (..\..\..\Include\nrf51.h)(0x52B2542C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\..\..\Include\system_nrf51.h)(0x52B2542C)
+I (..\..\..\Include\nrf51_bitfields.h)(0x5541E23F)
+I (..\..\..\Include\nrf51_deprecated.h)(0x52B2542E)
+I (..\..\..\Include\compiler_abstraction.h)(0x52B2542E)

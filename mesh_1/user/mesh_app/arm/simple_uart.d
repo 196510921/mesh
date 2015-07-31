@@ -1,0 +1,16 @@
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Source\simple_uart\simple_uart.c
+..\..\mesh_app\arm\simple_uart.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\nrf.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\nrf51.h
+..\..\mesh_app\arm\simple_uart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+..\..\mesh_app\arm\simple_uart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h
+..\..\mesh_app\arm\simple_uart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\system_nrf51.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\nrf51_bitfields.h
+..\..\mesh_app\arm\simple_uart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\nrf51_deprecated.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\compiler_abstraction.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\simple_uart.h
+..\..\mesh_app\arm\simple_uart.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\nrf_delay.h
+..\..\mesh_app\arm\simple_uart.o: ..\..\..\Include\nrf_gpio.h

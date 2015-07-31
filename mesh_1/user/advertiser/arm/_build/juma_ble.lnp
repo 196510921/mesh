@@ -1,0 +1,16 @@
+--cpu Cortex-M0
+".\_build\main.o"
+".\_build\simple_uart.o"
+".\_build\ble_advdata.o"
+".\_build\ts_peripheral.o"
+".\_build\advertise.o"
+".\_build\fsm_adv_generic.o"
+".\_build\fsm_sconn.o"
+".\_build\slave_dispatch.o"
+".\_build\att.o"
+".\_build\app.o"
+".\_build\arm_startup_nrf51.o"
+".\_build\system_nrf51.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\_build\juma_ble.map" -o .\_build\juma_ble.axf

@@ -1,0 +1,16 @@
+--cpu Cortex-M0
+"..\..\mesh_app\arm\main.o"
+"..\..\mesh_app\arm\simple_uart.o"
+"..\..\mesh_app\arm\ts_peripheral.o"
+"..\..\mesh_app\arm\router.o"
+"..\..\mesh_app\arm\mesh_baseband.o"
+"..\..\mesh_app\arm\mesh_app.o"
+"..\..\mesh_app\arm\fsm_adv_generic.o"
+"..\..\mesh_app\arm\fsm_sconn.o"
+"..\..\mesh_app\arm\att.o"
+"..\..\mesh_app\arm\slave_dispatch.o"
+"..\..\mesh_app\arm\arm_startup_nrf51.o"
+"..\..\mesh_app\arm\system_nrf51.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\mesh_app\mesh.map" -o ..\..\mesh_app\arm\mesh.axf

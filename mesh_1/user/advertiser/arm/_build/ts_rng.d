@@ -1,0 +1,16 @@
+.\_build\ts_rng.o: ..\..\btle_hci\advertiser\ts_rng.c
+.\_build\ts_rng.o: ..\..\btle_hci\advertiser\Include\ts_rng.h
+.\_build\ts_rng.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\ts_rng.o: ..\..\..\Include\nrf_gpio.h
+.\_build\ts_rng.o: ..\..\..\Include\nrf51.h
+.\_build\ts_rng.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+.\_build\ts_rng.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h
+.\_build\ts_rng.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h
+.\_build\ts_rng.o: ..\..\..\Include\system_nrf51.h
+.\_build\ts_rng.o: ..\..\..\Include\nrf51_bitfields.h
+.\_build\ts_rng.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h
+.\_build\ts_rng.o: ..\..\..\Include\s110\nrf_soc.h
+.\_build\ts_rng.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\_build\ts_rng.o: ..\..\..\Include\s110\nrf_svc.h
+.\_build\ts_rng.o: ..\..\..\Include\s110\nrf_error_soc.h
+.\_build\ts_rng.o: ..\..\..\Include\s110\nrf_error.h
